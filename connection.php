@@ -1,12 +1,12 @@
 <?php
-// tell the browser we are sending JSON data back
+// telling the browser that we are sending JSON data back
 header('Content-Type: application/json');
 
 // database connection details (for xampp)
 $server = "localhost";
-$username = "root";
-$password = "";
-$database = "weatherapp";
+$username = "if0_42333694";
+$password = "45gcP7QTaNrrgJ";
+$database = "if0_42333694_weatherapp";
 
 // connect to database
 $conn = mysqli_connect($server, $username, $password, $database);
