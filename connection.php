@@ -1,6 +1,5 @@
 <?php
-// allow requests from any origin
-header('Access-Control-Allow-Origin: *');
+// tell the browser we are sending JSON data back
 header('Content-Type: application/json');
 
 // database connection details (for xampp)
