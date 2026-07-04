@@ -10,7 +10,7 @@ async function getAndDisplayWeather(cityName) {
     if (navigator.onLine) {
         // online: fetch from php backend
         try {
-            var response = await fetch("http://localhost/prototype3/connection.php?q=" + cityName);
+            var response = await fetch("connection.php?q=" + cityName);
             data = await response.json();
 
             // check if we got valid data
