@@ -1,7 +1,6 @@
 
 
-CREATE DATABASE IF NOT EXISTS `weatherapp`;
-USE `weatherapp`;
+
 
 -- --------------------------------------------------------
 
